@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hide{
+    display: flex;
+}
+
+.upper, .bottom {
+    display: flex;
+    flex: 1;
+}
+
+.lft_1, .rght_2 {
+    flex: 1;
+    border: 1 solid black;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.lft_2, .rght_1 {
+    flex: 1;
+    border: 1 solid black;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.btn_1, .btn_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide_btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.btn:hover, .btn_2:hover {
+    filter: brightness(1.2);
+}
+
+.btn_1:hover {
+    background-color: rgb(1, 188, 251); 
+}
+
+.btn_2:hover {
+    background-color:  rgb(1, 254, 1);
+}
+
+.btn_1 {
+    background-color: lawngreen;
+
+}
+
+.btn_2 {
+    background-color: cadetblue;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline; 
+}
+
+.navbar a {
+    padding: 12px 20px; 
+    background-color: red;
+    text-decoration: none; 
+    color: white; 
+}
+
+.navbar {
+    height: 60px; 
+    background-color: black;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+
+

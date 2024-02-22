@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class = "navbar">
+        <ul>
+            <li><a href="">Very</a></li>
+            <li><a href="">Basic</a></li>
+            <li><a href="">Navbar</a></li>
+          </ul>    
+    </div>
+    <div class = "container">
+        
+        <div class = "upper">
+            <div class = "lft_1" id="dv_1t">
+                <button class="btn_1" type="submit" onclick="textAndColor('dv_1t')">Hello</button>
+            </div>
+            <div class = "rght_1" id="dv_2t">
+                <button class="btn_2" type="submit" onclick="changeColor('dv_2t', 'dv_2')">Change Color</button>
+                <button class="hide_btn"  id  = "hide_"onclick = "Hide('hide_')">Hide</button>
+            </div>
+        </div>
+        <div class = "bottom">
+            <div class = "lft_2" id="dv_2">
+                <button class="btn_2" type="submit" onclick="changeColor('dv_2t', 'dv_2')">Change Color</button>
+            </div>
+            <div class = "rght_2" id="dv_1">
+                <button class="btn_1" type="submit" onclick="changeColor('dv_1', 'dv_1t')">Change Color</button>
+            </div>
+        </div>
+        </div> 
+</body>
+</html>
